@@ -1,0 +1,39 @@
+
+[
+    {
+        "name":"Mehmet",
+        "last name": "Oztepek",
+        "email":"mehmet.Oztepek@final.edu.tr",
+        "phone number":"+9053912615",
+        "office No":"A123",
+        "address":"Ertugrul Kumcuoglu sokak"
+    },
+    
+    {
+        "name":"Mahmoud",
+        "last name": "Aburub",
+        "email":"mahmoud.aburub@final.edu.tr",
+        "phone number":"+9054212325",
+        "office No":"A563",
+        "address":"Ziya Riski caddessi"
+    },
+    
+    {
+        "name":"Huseyn",
+        "last name": "Lort",
+        "email":"huseyn.lort@final.edu.tr",
+        "phone number":"+905339621204",
+        "office No":"B633",
+        "address":"Oztoprak caddessi"
+    },
+    
+    {
+        "name":"Mohammed",
+        "last name": "Rheza",
+        "email":"mohamed.rheza@final.edu.tr",
+        "phone number":"+90548963210",
+        "office No":"A213",
+        "address":"Gaziantep Nullar caddessi"
+    }
+
+]
