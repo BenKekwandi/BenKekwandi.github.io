@@ -1,7 +1,7 @@
 var btn=document.getElementById("btn");
 //btn.addEventListener("click", function(){
         var myrequest=new XMLHttpRequest;
-        myrequest.open('GET','https://github.dev/BenKekwandi/benoitkeks.github.io/blob/main/data.json');
+        myrequest.open('GET','https://benkekwandi.github.io/data.json');
         myrequest.onload= function(){
                 var dt=loadJSON("data.json");
                 //var ourData= JSON.parse(myrequest.responseText);
