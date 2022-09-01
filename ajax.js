@@ -1,18 +1,17 @@
 var btn=document.getElementById("btn");
-//btn.addEventListener("click", function(){
+btn.addEventListener("click", function(){
         var myrequest=new XMLHttpRequest;
         myrequest.open('GET','https://benkekwandi.github.io/data.json');
         myrequest.onload= function(){
-                var dt=loadJSON("data.json");
-                //var ourData= JSON.parse(myrequest.responseText);
-                var ourData= JSON.parse(dt);
+                
+                var ourData= JSON.parse(myrequest.responseText);
                 console.log(ourData[0]);
-                //renderHtml(ourData);
+                renderHtml(ourData);
         }
 
-        //myrequest.send();
-//});
-/*function renderHtml(Data)
+        myrequest.send();
+});
+function renderHtml(Data)
 {
     for(i=0;i<Data.length;i++)
     { 
@@ -21,4 +20,4 @@ var btn=document.getElementById("btn");
     }
     
 
-}*/
+}
